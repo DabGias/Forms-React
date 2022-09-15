@@ -44,7 +44,6 @@ export const DivEtiqueta = styled.div `
 
     .painel {
         width: 90%;
-        border: 5px solid #509;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -52,6 +51,7 @@ export const DivEtiqueta = styled.div `
     }
 
     .etiqueta {
+        text-align: center;
         padding: 10px;
         border: 5px solid #509;
         width: 300px;

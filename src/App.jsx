@@ -1,10 +1,10 @@
-import Etiquetas from "./components/Etiquetas"
+import EtiquetasHookForm from "./components/EtiquetasHookForm"
 
 function App() {
     return(
         <>
             <h1>Aula 08</h1>
-            <Etiquetas/>
+            <EtiquetasHookForm/>
         </>
     )
 }

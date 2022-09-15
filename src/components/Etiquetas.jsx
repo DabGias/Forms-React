@@ -1,5 +1,5 @@
 import { useState } from "react"
-import {DivEtiqueta} from "../styled"
+import { DivEtiqueta } from "../styled"
 
 function Etiquetas() {
     const [cliente, setCliente] = useState({"nome" : "", "email" : "", "cpf" : ""})
